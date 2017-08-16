@@ -35,6 +35,5 @@ public class MoveSphere : MonoBehaviour {
 			this.transform.Translate(Vector3.right * velocidadDespzamiento*Time.deltaTime );
             this.transform.Rotate(new Vector3(0f, Input.GetAxis("Horizontal"), 0f) * velocidadDespzamiento * Time.deltaTime * 10);
         } 
-
 	}
 }
